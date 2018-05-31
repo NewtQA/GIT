@@ -26,7 +26,7 @@ public class CommonUtils {
 		driver.findElement(path).click();
 	}
 	
-	public void dropDown(By path,String Value){
+	//public void dropDown(By path,String Value){
 		Select sel=new Select(driver.findElement(path));
 		sel.selectByVisibleText(Value);
 	}
