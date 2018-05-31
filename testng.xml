@@ -6,7 +6,6 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.mercurytours.com.extentreport.TestNG"/>
       <class name="com.mercurytours.com.extentreport.ForExtentReport"/>
     </classes>
   </test> <!-- Test -->
