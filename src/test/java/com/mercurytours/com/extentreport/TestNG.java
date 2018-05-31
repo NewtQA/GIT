@@ -25,7 +25,7 @@ public class TestNG extends ForExtentReport  {
 		// TODO Auto-generated method stub
 		try{
 		testinfo=reports.createTest("method");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Sreelakshmi Totkar\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\Sreelakshmi Totkar\\Downloads\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.navigate().to("http://newtours.demoaut.com/");
         driver.manage().window().maximize();
