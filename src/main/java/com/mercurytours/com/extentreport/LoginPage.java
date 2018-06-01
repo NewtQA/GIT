@@ -20,7 +20,7 @@ public class LoginPage extends ForExtentReport {
 	public  WebDriver driver;
        
        By username=By.xpath("//input[@name='userName']");
-       By password=By.xpath("//input[@name='password']");
+       By password=By.xpath("//input[@name='pasword']");
        By signinbutton=By.xpath("//input[@name='login']");
         
    public LoginPage(WebDriver driver){
